@@ -65,10 +65,10 @@ ul {
 }
 
 .logo img{
-    height: 55px;      /* Navbar logo height */
-    width: auto;
-    display: block;
+    width: 55px;     /* 45–60px এর মধ্যে রাখো */
+    height: 55px;
     object-fit: contain;
+    display: block;
 }
 
 .nav-links a {
@@ -87,7 +87,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
 }
 
 
