@@ -69,13 +69,13 @@ ul {
 .logo{
     display: flex;
     align-items: center;
-    text-decoration: none;
 }
 
 .logo img{
-    width: 150px;      /* চাইলে 130px বা 170px করতে পারো */
-    height: auto;
+    height: 55px;      /* Navbar logo height */
+    width: auto;
     display: block;
+    object-fit: contain;
 }
 
 .nav-links a {
