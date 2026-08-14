@@ -1770,3 +1770,57 @@ footer::before {
         gap:5px;
     }
 }
+/* =========================
+   SKILLS GRID
+========================= */
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+/* Center last two cards */
+.skills-grid .skill-card:nth-child(5) {
+    grid-column: 2;
+}
+
+.skills-grid .skill-card:nth-child(6) {
+    grid-column: 3;
+}
+
+
+/* Skill Icons */
+.skill-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-icon i {
+    font-size: 24px;
+}
+
+
+/* Responsive */
+@media (max-width: 992px) {
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-grid .skill-card:nth-child(5),
+    .skills-grid .skill-card:nth-child(6) {
+        grid-column: auto;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
