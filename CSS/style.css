@@ -66,15 +66,16 @@ ul {
         0 5px 20px rgba(79, 70, 229, 0.15);
 }
 
-.logo {
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    font-weight: 800;
-    color: #27304a;
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 
-.logo span {
-    color: #6366f1;
+.logo img{
+    width: 150px;      /* চাইলে 130px বা 170px করতে পারো */
+    height: auto;
+    display: block;
 }
 
 .nav-links a {
