@@ -49,21 +49,14 @@ ul {
    NAVBAR
 ======================================== */
 
-.header {
-    position: sticky;
+.header{
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
     z-index: 1000;
-
-    background:
-        linear-gradient(90deg,
-            #e8edff 0%,
-            #f1eaff 45%,
-            #e5fbff 100%);
-
-    border-bottom: 2px solid #c9d2f5;
-
-    box-shadow:
-        0 5px 20px rgba(79, 70, 229, 0.15);
 }
 
 .logo{
